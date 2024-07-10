@@ -32,6 +32,3 @@ secdr2 = dr_num1 * 100
 secdr3 = secdr2 % 100
 
 print("четвертое задание, ответ: ", f"{firdr1}, {firdr3}", firdr1 == firdr3, f"{secdr1}, {secdr3}", secdr1 == secdr3)
-print(" ")
-print(secdr1)
-print(secdr3)
