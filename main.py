@@ -23,12 +23,9 @@ print(f"третье задание, ответ: сумма серединных
 # "4rd programm"
 dr_num1 = 13.42
 dr_num2 = 42.13
-firdr1 = dr_num1 // 1
-firdr2 = dr_num2 * 100
-firdr3 = firdr2 % 100
 
-secdr1 = dr_num2 // 1
-secdr2 = dr_num1 * 100
-secdr3 = secdr2 % 100
+mid_dr1 = dr_num1 * 100
+mid_dr2 = dr_num2 * 100
 
-print("четвертое задание, ответ: ", f"{firdr1}, {firdr3}", firdr1 == firdr3, f"{secdr1}, {secdr3}", secdr1 == secdr3)
+eq_mid_dr = (mid_dr1 // 100 == mid_dr2 % 100) and (mid_dr1 % 100 == mid_dr2 // 100)
+print(f"Четвертое задание, ответ: {eq_mid_dr}")
